@@ -1,7 +1,11 @@
 {
   "name": "requiresafe-remote-check",
+  "description": "Remotely check npm modules against the requireSafe api.",
   "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/requiresafe-remote-check/issues"
+  },
   "dependencies": {
     "babel": "^5.8.29",
     "boom": "^2.10.0",
@@ -13,8 +17,13 @@
     "babel-eslint": "^4.1.3",
     "eslint": "^1.7.3"
   },
+  "homepage": "https://github.com/pdehaan/requiresafe-remote-check#readme",
+  "keywords": [
+    "requiresafe"
+  ],
   "license": "WTFPL",
   "main": "index.js",
+  "repository": "pdehaan/requiresafe-remote-check",
   "scripts": {
     "lint": "eslint .",
     "start": "babel-node index --no-color",
